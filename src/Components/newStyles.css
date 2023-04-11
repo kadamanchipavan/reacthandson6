@@ -1,0 +1,101 @@
+form{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(236, 247, 247);
+}
+input{
+    width: 500px;
+    height: 47px;
+    margin: 40px;
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background: transparent;
+    fill: none;
+}
+input:hover{
+    border: 2px solid black;
+}
+
+.btn_addstudent:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.btn_addstudent{
+    background-color: grey;
+    width: 205px;
+    height: 45px;
+    float: right;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    /* cursor: pointer; */
+}
+#studentsflex{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+#stuAddBtn{
+    font-size: 20px;
+   
+    background-color: orangered;
+}
+#cancelBtn{
+    background-color: gray;
+}
+#cancelBtn:hover{
+    background-color: rgb(30, 141, 166);
+}
+#addSubmitBtn{
+    margin-right: 100px;
+}
+#addSubmitBtn:hover{
+    box-shadow: inset 2px 2px 14px blue;
+}
+
+.homePage{
+    text-align: center;
+    font-size: 1.52em;
+    
+}
+
+.homePage:hover{
+    color: brown;
+    text-shadow: 2px 2px 3px rgb(53, 51, 51);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    column-gap: 300px;
+    
+    font-style: italic;
+   
+    }
+    .textDecoration{
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: bold;
+        
+    }
+.form-control{
+    text-align: center;
+}
+.table{
+    text-align: center;
+    background-color: thistle;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    left: 600px;
+    top: 60px;
+}
